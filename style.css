@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(#ffffff,#b34ef6);
+    min-height: 100vh;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover{
+    color: plum;
+}
+
+#Coeur{
+    animation-name: appa;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes appa{
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0.5;
+       
+    }
+    100%{
+        opacity: 1;
+        
+    }
+      
+}
+
+#skate{
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes skate {
+    from{
+    }
+    to{
+    transform: translatex(10px);
+    }
+}
+
+#barbecue{
+    animation-name: barbecue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes barbecue {
+    0%{
+        opacity: 0;
+        transform: translateY();
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateY(-6px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-12px);
+    }
+}
+
+
+.cr7{
+    background-image: url(1.PNG);
+    animation-name: cr7;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-left: 70rem;
+    height: 121px;
+    width: 121px;
+}
+
+@keyframes cr7 {
+    0%{
+        background-image: url(2.PNG);
+    }
+    30%{
+        background-image: url(3.PNG);
+    }
+    50%{
+        background-image: url(4.PNG);
+    }
+    60%{
+        background-image: url(5.PNG);
+    }
+    70%{
+        background-image: url(6.PNG);
+    }
+    80%{
+        background-image: url(7.PNG);
+    }
+    90%{
+        background-image: url(8.PNG);
+    }
+    100%{
+        background-image: url(9.PNG);
+    }
+    
+}
